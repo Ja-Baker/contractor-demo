@@ -1,5 +1,5 @@
 
-import { ArrowRight, Calendar, Globe, Clock } from "lucide-react";
+import { ArrowRight, Calendar, Globe, Clock, Shield, Award } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
@@ -8,9 +8,9 @@ export function LLCInfoSection() {
     <section className="py-20 bg-gradient-to-b from-white to-secondary" id="llc-info">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 space-y-2">
-          <h2 className="text-3xl md:text-4xl font-bold">LLC Information</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Government Credentials</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Key details about our business registration and credentials.
+            Our federal contracting qualifications and registrations.
           </p>
         </div>
         
@@ -22,8 +22,8 @@ export function LLCInfoSection() {
                   <Calendar className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Founding Date</h3>
-                  <p className="text-muted-foreground">Established on January 15, 2018</p>
+                  <h3 className="text-xl font-semibold">Company Established</h3>
+                  <p className="text-muted-foreground">Incorporated on January 15, 2018</p>
                 </div>
               </div>
               
@@ -33,19 +33,30 @@ export function LLCInfoSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold">SAM.gov Registration</h3>
-                  <p className="text-muted-foreground">Registered on March 10, 2018</p>
-                  <p className="text-sm text-muted-foreground mt-1">Registration #: SAM12345678</p>
+                  <p className="text-muted-foreground">Active registration since March 10, 2018</p>
+                  <p className="text-sm text-muted-foreground mt-1">CAGE Code: 1A2B3</p>
                 </div>
               </div>
               
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 animate-fade-in animation-delay-200">
-                <div className="p-3 rounded-xl bg-purple-50 text-purple-500">
-                  <Clock className="h-6 w-6" />
+                <div className="p-3 rounded-xl bg-amber-50 text-amber-500">
+                  <Shield className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Operating Hours</h3>
-                  <p className="text-muted-foreground">Monday to Friday: 9:00 AM - 5:00 PM ET</p>
-                  <p className="text-sm text-muted-foreground mt-1">24/7 Emergency Support Available</p>
+                  <h3 className="text-xl font-semibold">Security Clearances</h3>
+                  <p className="text-muted-foreground">Facility Clearance Level: Secret</p>
+                  <p className="text-sm text-muted-foreground mt-1">Personnel with TS/SCI available</p>
+                </div>
+              </div>
+              
+              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 animate-fade-in animation-delay-300">
+                <div className="p-3 rounded-xl bg-purple-50 text-purple-500">
+                  <Award className="h-6 w-6" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold">Contract Vehicles</h3>
+                  <p className="text-muted-foreground">GSA Schedule Contract Holder</p>
+                  <p className="text-sm text-muted-foreground mt-1">IDIQ and BPA access available</p>
                 </div>
               </div>
             </div>
@@ -55,7 +66,7 @@ export function LLCInfoSection() {
                 to="/llc-info" 
                 className="inline-flex items-center gap-2 text-primary font-medium"
               >
-                View Complete LLC Information
+                View Complete Government Credentials
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>

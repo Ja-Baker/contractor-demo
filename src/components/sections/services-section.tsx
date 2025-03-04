@@ -6,32 +6,32 @@ import { cn } from "@/lib/utils";
 const services = [
   {
     id: "transportation",
-    title: "Transportation",
-    description: "Efficient logistics solutions for your transportation needs with real-time tracking.",
+    title: "Government Transportation",
+    description: "Secure logistics solutions for federal agencies with compliance tracking and reporting.",
     icon: "🚚",
     color: "bg-blue-50 border-blue-200",
     iconColor: "text-blue-500",
   },
   {
-    id: "laundry",
-    title: "Laundry & Linen",
-    description: "Professional linen services with quality care and timely delivery.",
-    icon: "🧺",
+    id: "supply-chain",
+    title: "Supply Chain Management",
+    description: "End-to-end supply chain solutions tailored for government procurement requirements.",
+    icon: "📦",
     color: "bg-teal-50 border-teal-200",
     iconColor: "text-teal-500",
   },
   {
-    id: "firearms",
-    title: "Firearms",
-    description: "Secure and compliant firearms services with proper documentation.",
+    id: "secure-logistics",
+    title: "Secure Logistics",
+    description: "Classified and sensitive material handling with proper security clearances and protocols.",
     icon: "🔒",
     color: "bg-amber-50 border-amber-200",
     iconColor: "text-amber-500",
   },
   {
     id: "data",
-    title: "Data Management",
-    description: "Comprehensive data solutions to organize and secure your information.",
+    title: "Federal Data Management",
+    description: "FISMA-compliant data solutions for organizing and securing government information.",
     icon: "📊",
     color: "bg-purple-50 border-purple-200",
     iconColor: "text-purple-500",
@@ -43,9 +43,9 @@ export function ServicesSection() {
     <section className="py-20 bg-secondary" id="services">
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 space-y-2">
-          <h2 className="text-3xl md:text-4xl font-bold">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Contract Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We provide a diverse range of professional services tailored to meet your business needs.
+            We provide specialized logistics and data management services tailored for government contracts and federal requirements.
           </p>
         </div>
         
