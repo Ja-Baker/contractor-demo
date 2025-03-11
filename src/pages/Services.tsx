@@ -7,14 +7,13 @@ const services = [
     id: "transportation",
     title: "Transportation",
     description: "Efficient logistics solutions for your transportation needs with real-time tracking and reliable service.",
-    longDescription: "Our transportation services provide comprehensive logistics solutions designed to meet the diverse needs of government agencies. With real-time tracking capabilities, we ensure transparency throughout the delivery process. Our fleet is well-maintained and operated by experienced professionals with security clearances, committed to timely and secure deliveries. We handle everything from local deliveries to long-distance transport, implementing efficient routing systems to optimize time and resources while maintaining the highest security standards required for government contracts.",
+    longDescription: "Our transportation services provide comprehensive logistics solutions designed to meet the diverse needs of our clients. With real-time tracking capabilities, we ensure transparency throughout the delivery process. Our fleet is well-maintained and operated by experienced professionals committed to timely and secure deliveries. We handle everything from local deliveries to long-distance transport, implementing efficient routing systems to optimize time and resources.",
     features: [
       "Real-time GPS tracking and monitoring",
       "Scheduled and on-demand services",
       "Secure handling of sensitive materials",
       "Optimized routing for efficiency",
       "Comprehensive insurance coverage",
-      "Security-cleared personnel",
     ],
     icon: "🚚",
     color: "bg-blue-50 border-blue-200",
@@ -24,20 +23,53 @@ const services = [
   {
     id: "laundry",
     title: "Laundry & Linen",
-    description: "Professional linen services with quality care and timely delivery for government facilities.",
-    longDescription: "Our laundry and linen services provide government facilities with high-quality textile care and management. We understand the importance of clean, well-maintained linens in various government settings, from military bases to federal offices. Our state-of-the-art facilities and eco-friendly processes ensure that all items are treated with care while meeting the highest standards of cleanliness and compliance with federal regulations. We offer flexible scheduling options to accommodate the unique needs of each agency, ensuring timely pickups and deliveries.",
+    description: "Professional linen services with quality care and timely delivery for businesses of all sizes.",
+    longDescription: "Our laundry and linen services provide businesses with high-quality textile care and management. We understand the importance of clean, well-maintained linens in various industries, from hospitality to healthcare. Our state-of-the-art facilities and eco-friendly processes ensure that all items are treated with care while meeting the highest standards of cleanliness. We offer flexible scheduling options to accommodate the unique needs of each client, ensuring timely pickups and deliveries.",
     features: [
       "Commercial and industrial laundering",
-      "Specialized handling for government-specified items",
+      "Specialized handling for delicate items",
       "Scheduled pickup and delivery",
       "Inventory management systems",
       "Eco-friendly cleaning processes",
-      "Federal compliance documentation",
     ],
     icon: "🧺",
     color: "bg-teal-50 border-teal-200",
     iconColor: "text-teal-500",
     image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
+  },
+  {
+    id: "firearms",
+    title: "Firearms",
+    description: "Secure and compliant firearms services with proper documentation and safety measures.",
+    longDescription: "Our firearms services focus on security, compliance, and responsible management. We understand the complex regulatory landscape surrounding firearms and provide comprehensive solutions that ensure all legal requirements are met. Our team of certified professionals handles all aspects of firearms management, from secure storage and transportation to proper documentation and recordkeeping. We prioritize safety above all else, implementing rigorous protocols to prevent unauthorized access and ensure proper handling at all times.",
+    features: [
+      "Secure storage facilities",
+      "Compliant transportation services",
+      "Comprehensive documentation management",
+      "Regular inventory audits",
+      "Certified handling procedures",
+    ],
+    icon: "🔒",
+    color: "bg-amber-50 border-amber-200",
+    iconColor: "text-amber-500",
+    image: "https://images.unsplash.com/photo-1584059535270-6ebaf28ad3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
+  },
+  {
+    id: "data",
+    title: "Data Management",
+    description: "Comprehensive data solutions to organize and secure your information with advanced analytics.",
+    longDescription: "Our data management services help businesses organize, protect, and leverage their information assets effectively. In today's digital landscape, proper data management is essential for operational efficiency and strategic decision-making. We provide end-to-end solutions, from data collection and storage to analysis and reporting. Our secure systems protect sensitive information while making it accessible to authorized personnel. We also implement data governance frameworks to ensure compliance with relevant regulations and industry standards.",
+    features: [
+      "Secure data storage and backup solutions",
+      "Custom database design and implementation",
+      "Data cleaning and normalization",
+      "Advanced analytics and reporting",
+      "Compliance management for data regulations",
+    ],
+    icon: "📊",
+    color: "bg-purple-50 border-purple-200",
+    iconColor: "text-purple-500",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
   },
 ];
 
@@ -49,7 +81,7 @@ const Services = () => {
           <div className="max-w-3xl mx-auto text-center animate-slide-in-up">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Services</h1>
             <p className="text-lg text-muted-foreground">
-              We provide specialized government-focused services in transportation and linen management, meeting federal standards and requirements.
+              We provide a diverse range of professional services tailored to meet your business needs with precision and excellence.
             </p>
           </div>
         </div>
@@ -112,7 +144,7 @@ const Services = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Need a Custom Solution?</h2>
             <p className="text-muted-foreground mb-8">
-              Our team can design tailored service packages to meet your specific government requirements and compliance needs.
+              Our team can design tailored service packages to meet your specific requirements and business objectives.
             </p>
             <a 
               href="#contact" 
