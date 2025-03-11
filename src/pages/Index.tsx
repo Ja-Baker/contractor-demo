@@ -5,7 +5,6 @@ import { ServicesSection } from "@/components/sections/services-section";
 import { AboutSection } from "@/components/sections/about-section";
 import { LLCInfoSection } from "@/components/sections/llc-info-section";
 import { ContractVehiclesSection } from "@/components/sections/contract-vehicles-section";
-import { EmergencyClaimsButton } from "@/components/ui/emergency-claims-button";
 
 const Index = () => {
   return (
@@ -15,7 +14,6 @@ const Index = () => {
       <ContractVehiclesSection />
       <AboutSection />
       <LLCInfoSection />
-      <EmergencyClaimsButton />
     </Layout>
   );
 };
