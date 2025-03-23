@@ -21,7 +21,7 @@ const services = [
     image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
   },
   {
-    id: "laundry",
+    id: "laundry-linen",
     title: "Laundry & Linen",
     description: "Professional linen services with quality care and timely delivery for businesses of all sizes.",
     longDescription: "Our laundry and linen services provide businesses with high-quality textile care and management. We understand the importance of clean, well-maintained linens in various industries, from hospitality to healthcare. Our state-of-the-art facilities and eco-friendly processes ensure that all items are treated with care while meeting the highest standards of cleanliness. We offer flexible scheduling options to accommodate the unique needs of each client, ensuring timely pickups and deliveries.",
@@ -36,23 +36,6 @@ const services = [
     color: "bg-teal-50 border-teal-200",
     iconColor: "text-teal-500",
     image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
-  },
-  {
-    id: "firearms",
-    title: "Firearms",
-    description: "Secure and compliant firearms services with proper documentation and safety measures.",
-    longDescription: "Our firearms services focus on security, compliance, and responsible management. We understand the complex regulatory landscape surrounding firearms and provide comprehensive solutions that ensure all legal requirements are met. Our team of certified professionals handles all aspects of firearms management, from secure storage and transportation to proper documentation and recordkeeping. We prioritize safety above all else, implementing rigorous protocols to prevent unauthorized access and ensure proper handling at all times.",
-    features: [
-      "Secure storage facilities",
-      "Compliant transportation services",
-      "Comprehensive documentation management",
-      "Regular inventory audits",
-      "Certified handling procedures",
-    ],
-    icon: "🔒",
-    color: "bg-amber-50 border-amber-200",
-    iconColor: "text-amber-500",
-    image: "https://images.unsplash.com/photo-1584059535270-6ebaf28ad3ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
   },
   {
     id: "data",

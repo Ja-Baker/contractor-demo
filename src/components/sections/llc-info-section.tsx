@@ -1,7 +1,6 @@
 
-import { ArrowRight, Calendar, Globe, Clock, Shield, Award } from "lucide-react";
+import { ArrowRight, Calendar, Globe, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
-import { cn } from "@/lib/utils";
 
 export function LLCInfoSection() {
   return (
@@ -23,7 +22,7 @@ export function LLCInfoSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold">Company Established</h3>
-                  <p className="text-muted-foreground">Incorporated on January 15, 2018</p>
+                  <p className="text-muted-foreground">Incorporated on September 30th, 2024</p>
                 </div>
               </div>
               
@@ -33,30 +32,19 @@ export function LLCInfoSection() {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold">SAM.gov Registration</h3>
-                  <p className="text-muted-foreground">Active registration since March 10, 2018</p>
-                  <p className="text-sm text-muted-foreground mt-1">CAGE Code: 1A2B3</p>
+                  <p className="text-muted-foreground">EIN: 33-1273206</p>
+                  <p className="text-sm text-muted-foreground mt-1">NAICS code: 812331</p>
+                  <p className="text-sm text-muted-foreground mt-1">SIC code: 70-89</p>
                 </div>
               </div>
               
-              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 animate-fade-in animation-delay-200">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 animate-fade-in animation-delay-200 opacity-50">
                 <div className="p-3 rounded-xl bg-amber-50 text-amber-500">
                   <Shield className="h-6 w-6" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold">Security Clearances</h3>
-                  <p className="text-muted-foreground">Facility Clearance Level: Secret</p>
-                  <p className="text-sm text-muted-foreground mt-1">Personnel with TS/SCI available</p>
-                </div>
-              </div>
-              
-              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 animate-fade-in animation-delay-300">
-                <div className="p-3 rounded-xl bg-purple-50 text-purple-500">
-                  <Award className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold">Contract Vehicles</h3>
-                  <p className="text-muted-foreground">GSA Schedule Contract Holder</p>
-                  <p className="text-sm text-muted-foreground mt-1">IDIQ and BPA access available</p>
+                  <p className="text-muted-foreground">Coming Soon</p>
                 </div>
               </div>
             </div>

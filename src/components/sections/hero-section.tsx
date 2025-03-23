@@ -15,22 +15,43 @@ export function HeroSection() {
         <div className="max-w-3xl space-y-6">
           <div className="space-y-2 animate-slide-in-up">
             <div className="inline-block px-3 py-1 mb-4 text-xs font-medium tracking-wider text-primary bg-primary/10 rounded-full">
-              GOVERNMENT CONTRACT LOGISTICS
+              GOVERNMENT CONTRACT SERVICES
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
-              Reliable Logistics Solutions for Federal Agencies
+              Reliable Solutions for Federal Agencies
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mt-4">
-              Delivering efficient and compliant logistics and data management services to government agencies and contractors nationwide.
+              Delivering efficient and compliant transportation, laundry, and data management services to government agencies nationwide.
             </p>
           </div>
           
-          <div className="flex flex-wrap gap-4 mt-8 animate-slide-in-up animation-delay-200">
+          <div className="mt-8 space-y-6 animate-slide-in-up animation-delay-200">
+            <h2 className="text-2xl font-semibold">What We Do</h2>
+            <p className="text-lg text-muted-foreground">
+              At Millicour, we provide specialized services tailored to meet the unique needs of government contracts. Our commitment to compliance ensures transparency and accountability in every project we undertake.
+            </p>
+            <ul className="space-y-2 pl-5">
+              <li className="flex items-start">
+                <span className="text-green-500 mr-2">✓</span>
+                <span>Commitment to Compliance: We adhere to all regulatory standards and best practices.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-2">✓</span>
+                <span>Quality Assurance: Rigorous quality control measures ensure excellence in every service.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-green-500 mr-2">✓</span>
+                <span>Transparent Reporting: Detailed documentation and regular updates for all clients.</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div className="flex flex-wrap gap-4 mt-8 animate-slide-in-up animation-delay-300">
             <Link 
               to="/services" 
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-md font-medium transition-all hover:opacity-90"
             >
-              Contract Services
+              Our Services
               <ArrowRight className="h-4 w-4" />
             </Link>
             <Link 

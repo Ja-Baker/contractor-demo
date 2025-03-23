@@ -5,21 +5,21 @@ import { cn } from "@/lib/utils";
 
 const teamMembers = [
   {
-    name: "Col. James Anderson (Ret.)",
-    role: "Chief Executive Officer",
-    bio: "25 years of military logistics experience and 10 years in government contracting.",
+    name: "Payton Kashmier",
+    role: "Co-Founder",
+    bio: "University of Missouri student, born and raised near Chicago. Very motivated to create a successful business.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
   },
   {
-    name: "Dr. Michael Reynolds",
-    role: "Operations Director",
-    bio: "Former DoD logistics advisor specializing in supply chain optimization.",
+    name: "Shabir Buttar-Miller",
+    role: "Co-Founder",
+    bio: "University of Missouri student, born and raised in Saint Louis.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
   },
   {
-    name: "Sarah Williams",
-    role: "Compliance Officer",
-    bio: "Expert in federal contracting regulations and procurement guidelines.",
+    name: "Jacob Warren",
+    role: "Co-Founder",
+    bio: "Twenty-One-year-old entrepreneur inspired to build and manage successful businesses. Originally born outside Washington D.C.",
     image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
   },
 ];
@@ -30,12 +30,12 @@ export function AboutSection() {
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-slide-in-left">
-            <h2 className="text-3xl md:text-4xl font-bold">About Our Company</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">About Millicour</h2>
             <p className="text-lg text-muted-foreground">
-              Founded by veterans and government contracting specialists, our company brings extensive experience in federal logistics and compliance to every project we undertake.
+              Founded by a team of passionate entrepreneurs, Millicour brings innovative solutions and exceptional service to every government contract we undertake.
             </p>
             <p className="text-muted-foreground">
-              We maintain all necessary security clearances and certifications required for federal contracting, including SAM registration, CAGE code compliance, and appropriate facility clearances to handle government projects of various classification levels.
+              We maintain all necessary registrations and compliance standards required for federal contracting, including SAM registration, EIN compliance, and appropriate NAICS codes to handle government projects of various types.
             </p>
             <Link 
               to="/about" 
@@ -111,6 +111,15 @@ export function AboutSection() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link 
+              to="/about" 
+              className="inline-flex items-center gap-2 text-primary font-medium"
+            >
+              View All Team Members
+              <ArrowRight className="h-4 w-4" />
+            </Link>
           </div>
         </div>
       </div>

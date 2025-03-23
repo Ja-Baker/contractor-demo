@@ -1,7 +1,6 @@
 
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navItems = [
@@ -80,9 +79,9 @@ export function Navigation() {
               to="/" 
               className="text-xl font-semibold tracking-tight transition-all duration-300 hover:opacity-80"
             >
-              <span className="sr-only">Your LLC</span>
-              {/* Replace with your logo or company name */}
-              Your LLC
+              <span className="sr-only">Millicour</span>
+              {/* Company name */}
+              Millicour
             </Link>
           </div>
 

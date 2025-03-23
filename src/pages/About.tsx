@@ -4,59 +4,42 @@ import { cn } from "@/lib/utils";
 
 const teams = [
   {
-    name: "Executive Team",
+    name: "Our Team",
     members: [
       {
-        name: "Jamie Smith",
-        role: "Chief Executive Officer",
-        bio: "Jamie brings over 15 years of experience in logistics and business management, with a proven track record of scaling operations and driving strategic growth.",
+        name: "Payton Kashmier",
+        role: "Co-Founder",
+        bio: "University of Missouri student, born and raised near Chicago. Very motivated to create a successful business.",
+        qualifications: "University of Missouri Engineering School. Problem Solver, Reliable, Personable, Helpful.",
         image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       },
       {
-        name: "Alex Johnson",
-        role: "Operations Director",
-        bio: "Alex specializes in streamlining processes and enhancing efficiency across all operational sectors of the company.",
+        name: "Shabir Buttar-Miller",
+        role: "Co-Founder",
+        bio: "University of Missouri student, born and raised in Saint Louis.",
+        qualifications: "University of Missouri Business School. Clayton High School graduate.",
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       },
       {
-        name: "Taylor Williams",
-        role: "Financial Analyst",
-        bio: "Taylor is an expert in financial planning and investment strategies, ensuring our company maintains strong fiscal health.",
+        name: "Jacob Warren",
+        role: "Co-Founder",
+        bio: "Twenty-One-year-old entrepreneur inspired to build and manage successful businesses. Originally born outside Washington D.C., and now lives in Columbia, Missouri.",
+        qualifications: "Eureka High School graduate. Previous business ventures with networking and financial literacy.",
         image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       },
-    ],
-  },
-  {
-    name: "Operations Team",
-    members: [
       {
-        name: "Jordan Rivera",
-        role: "Logistics Manager",
-        bio: "Jordan oversees all logistics operations, ensuring timely and efficient service delivery.",
+        name: "Andrew Shaw",
+        role: "Co-Founder",
+        bio: "Twenty-One-year-old, eager to grow and maintain a top 1% business in America. Born and raised in Fishers IN, grew up as a multi-sport athlete who took pride in the idea of competing to be the best alongside your brothers.",
+        qualifications: "Highschool Graduate. Recruiter for a Construction Staffing company, with a splash of entrepreneurship in my own website.",
         image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       },
       {
-        name: "Casey Morgan",
-        role: "Data Analyst",
-        bio: "Casey specializes in data analysis and visualization, transforming complex data into actionable insights.",
+        name: "Clay Covert",
+        role: "Co-Founder",
+        bio: "Twenty-year-old, wanting to connect in and maintain a constantly improving organization meeting demands and needs around the country. I originate from St. Louis, Missouri and wrestled for over 11 years.",
+        qualifications: "Lafayette Highschool Graduate. Previous experience - Togo Manager. Associate in Aczero LLC, an innovating tech company in GPU and AI science.",
         image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      },
-    ],
-  },
-  {
-    name: "Support Team",
-    members: [
-      {
-        name: "Riley Carter",
-        role: "Customer Success Manager",
-        bio: "Riley ensures our clients receive exceptional support and achieve their desired outcomes with our services.",
-        image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      },
-      {
-        name: "Dakota Lee",
-        role: "Technical Support Specialist",
-        bio: "Dakota provides expert technical assistance, troubleshooting issues to ensure smooth service delivery.",
-        image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       },
     ],
   },
@@ -68,7 +51,7 @@ const About = () => {
       <section className="pt-28 pb-16 bg-gradient-to-b from-secondary to-white">
         <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center animate-slide-in-up">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Our LLC</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Millicour</h1>
             <p className="text-lg text-muted-foreground">
               Learn about our mission, our team, and the shared experiences that drive our business forward.
             </p>
@@ -80,16 +63,16 @@ const About = () => {
         <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 animate-slide-in-left">
-              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold mb-6">Who We Are</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 2018, our LLC was born from a shared vision to create a company that would excel in multiple sectors while maintaining a cohesive, data-driven approach to all our operations.
+                  Millicour is a dedicated government contracting firm specializing in providing high-quality services and solutions to federal, state, and local government agencies. With a commitment to excellence, efficiency, and compliance, we deliver innovative solutions tailored to the unique needs of our clients.
                 </p>
                 <p>
-                  What started as a small team with big ideas has grown into a diverse organization with specialized divisions, each contributing to our collective success while maintaining our core values of integrity, innovation, and excellence.
+                  Founded on September 30th, 2024, our team brings together diverse backgrounds and skill sets united by a common goal: creating a successful business that delivers exceptional value to government clients.
                 </p>
                 <p>
-                  Throughout our journey, we've remained committed to providing exceptional service to our clients, fostering strong relationships with our partners, and creating a supportive environment for our team members.
+                  We offer a comprehensive range of services, including Laundry and Linen, Transportation, and Data Management, all designed to meet the rigorous standards of government contracting.
                 </p>
               </div>
             </div>
@@ -138,7 +121,7 @@ const About = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4">Our Values</h3>
               <p className="text-muted-foreground">
-                We are guided by integrity, excellence, innovation, collaboration, and a commitment to exceeding expectations in everything we do.
+                We are guided by integrity, excellence, innovation, collaboration, and a commitment to exceeding expectations in everything we do. We adhere to all regulatory standards and best practices to ensure transparency and accountability in every project.
               </p>
             </div>
           </div>
@@ -147,13 +130,11 @@ const About = () => {
 
       <section className="py-16">
         <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-6 text-center">Meet Our Team</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">Meet Our Team</h2>
           
-          <div className="space-y-16 mt-12">
-            {teams.map((team, teamIndex) => (
+          <div className="space-y-16">
+            {teams.map((team) => (
               <div key={team.name} className="space-y-8">
-                <h3 className="text-2xl font-semibold mb-6">{team.name}</h3>
-                
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   {team.members.map((member, memberIndex) => (
                     <div 
@@ -172,14 +153,43 @@ const About = () => {
                       </div>
                       <div className="p-6">
                         <h4 className="text-xl font-semibold">{member.name}</h4>
-                        <p className="text-sm text-muted-foreground mb-2">{member.role}</p>
-                        <p className="text-muted-foreground">{member.bio}</p>
+                        <p className="text-sm text-muted-foreground mb-3">{member.role}</p>
+                        <h5 className="font-medium text-sm mb-1">Bio</h5>
+                        <p className="text-muted-foreground mb-3">{member.bio}</p>
+                        <h5 className="font-medium text-sm mb-1">Qualifications</h5>
+                        <p className="text-muted-foreground">{member.qualifications}</p>
                       </div>
                     </div>
                   ))}
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-secondary">
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-6 text-center">Company Information</h2>
+          <div className="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-sm border">
+            <div className="space-y-6">
+              <div className="flex flex-col sm:flex-row gap-4">
+                <div className="min-w-[150px] font-semibold">Founded</div>
+                <div>September 30th, 2024</div>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <div className="min-w-[150px] font-semibold">EIN</div>
+                <div>33-1273206</div>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <div className="min-w-[150px] font-semibold">NAICS Code</div>
+                <div>812331</div>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <div className="min-w-[150px] font-semibold">SIC Code</div>
+                <div>70-89</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
