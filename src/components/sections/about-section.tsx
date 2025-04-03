@@ -14,7 +14,7 @@ const teamMembers = [
     name: "Shabir Buttar-Miller",
     role: "Co-Founder",
     bio: "University of Missouri student, born and raised in Saint Louis.",
-    image: "/placeholder.svg",
+    image: "/lovable-uploads/0e6f9871-f669-48f3-b396-16c5846ec661.png",
   },
   {
     name: "Jacob Warren",
