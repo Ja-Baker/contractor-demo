@@ -20,7 +20,7 @@ const teamMembers = [
     name: "Jacob Warren",
     role: "Co-Founder",
     bio: "Twenty-One-year-old entrepreneur inspired to build and manage successful businesses. Originally born outside Washington D.C.",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "/lovable-uploads/1532e4f0-d34e-4924-8da1-2505007b8af8.png",
   },
 ];
 
