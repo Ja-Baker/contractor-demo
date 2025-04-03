@@ -36,7 +36,7 @@ const services = [
     icon: <WashingMachine className="h-6 w-6" />,
     color: "bg-teal-50 border-teal-200",
     iconColor: "text-teal-500",
-    image: "/lovable-uploads/ae630127-2abb-4f5f-93be-27710671367c.png",
+    image: "/lovable-uploads/4f60b4b1-4045-4a32-a420-7671f60839bc.png",
   },
 ];
 
