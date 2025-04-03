@@ -1,5 +1,5 @@
 
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Truck, WashingMachine } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
@@ -8,7 +8,7 @@ const services = [
     id: "transportation",
     title: "Transportation",
     description: "Secure logistics solutions for federal agencies with compliance tracking and reporting.",
-    icon: "🚚",
+    icon: <Truck className="h-6 w-6" />,
     color: "bg-blue-50 border-blue-200",
     iconColor: "text-blue-500",
   },
@@ -16,17 +16,9 @@ const services = [
     id: "laundry-linen",
     title: "Laundry & Linen",
     description: "Professional linen services with quality care and timely delivery for businesses of all sizes.",
-    icon: "🧺",
+    icon: <WashingMachine className="h-6 w-6" />,
     color: "bg-teal-50 border-teal-200",
     iconColor: "text-teal-500",
-  },
-  {
-    id: "data",
-    title: "Data Management",
-    description: "FISMA-compliant data solutions for organizing and securing government information.",
-    icon: "📊",
-    color: "bg-purple-50 border-purple-200",
-    iconColor: "text-purple-500",
   },
 ];
 
@@ -37,11 +29,11 @@ export function ServicesSection() {
         <div className="text-center mb-16 space-y-2">
           <h2 className="text-3xl md:text-4xl font-bold">Our Services</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We provide specialized logistics and data management services tailored for government contracts and federal requirements.
+            We provide specialized logistics and linen management services tailored for government contracts and federal requirements.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto max-w-4xl">
           {services.map((service, index) => (
             <div 
               key={service.id}
@@ -51,7 +43,7 @@ export function ServicesSection() {
               )}
             >
               <div className={cn("p-3 rounded-xl inline-block mb-4", service.color)}>
-                <span className="text-2xl" aria-hidden="true">{service.icon}</span>
+                <span className={cn(service.iconColor)}>{service.icon}</span>
               </div>
               
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>

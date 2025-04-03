@@ -1,6 +1,7 @@
 
 import { Layout } from "@/components/layout/layout";
 import { cn } from "@/lib/utils";
+import { Truck, WashingMachine } from "lucide-react";
 
 const services = [
   {
@@ -15,10 +16,10 @@ const services = [
       "Optimized routing for efficiency",
       "Comprehensive insurance coverage",
     ],
-    icon: "🚚",
+    icon: <Truck className="h-6 w-6" />,
     color: "bg-blue-50 border-blue-200",
     iconColor: "text-blue-500",
-    image: "/lovable-uploads/9af8b374-2b57-4195-ba19-da8a346e3caf.png",
+    image: "/lovable-uploads/32419a70-2ddd-44e1-baf7-22c704c14bb1.png",
   },
   {
     id: "laundry-linen",
@@ -32,27 +33,10 @@ const services = [
       "Inventory management systems",
       "Eco-friendly cleaning processes",
     ],
-    icon: "🧺",
+    icon: <WashingMachine className="h-6 w-6" />,
     color: "bg-teal-50 border-teal-200",
     iconColor: "text-teal-500",
-    image: "/lovable-uploads/701ffff1-3df1-4e72-8a1a-4ad2372d7bca.png",
-  },
-  {
-    id: "data",
-    title: "Data Management",
-    description: "Comprehensive data solutions to organize and secure your information with advanced analytics.",
-    longDescription: "Our data management services help businesses organize, protect, and leverage their information assets effectively. In today's digital landscape, proper data management is essential for operational efficiency and strategic decision-making. We provide end-to-end solutions, from data collection and storage to analysis and reporting. Our secure systems protect sensitive information while making it accessible to authorized personnel. We also implement data governance frameworks to ensure compliance with relevant regulations and industry standards.",
-    features: [
-      "Secure data storage and backup solutions",
-      "Custom database design and implementation",
-      "Data cleaning and normalization",
-      "Advanced analytics and reporting",
-      "Compliance management for data regulations",
-    ],
-    icon: "📊",
-    color: "bg-purple-50 border-purple-200",
-    iconColor: "text-purple-500",
-    image: "/lovable-uploads/67358412-3744-48f0-bc28-bf2ff4ff502b.png",
+    image: "/lovable-uploads/ae630127-2abb-4f5f-93be-27710671367c.png",
   },
 ];
 
@@ -87,7 +71,7 @@ const Services = () => {
                   "animate-slide-in-up"
                 )}>
                   <div className={cn("p-3 rounded-xl inline-block mb-4", service.color)}>
-                    <span className="text-2xl" aria-hidden="true">{service.icon}</span>
+                    <span className={cn(service.iconColor)}>{service.icon}</span>
                   </div>
                   <h2 className="text-3xl font-bold mb-4">{service.title}</h2>
                   <p className="text-muted-foreground mb-6">{service.longDescription}</p>
