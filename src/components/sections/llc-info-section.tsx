@@ -1,5 +1,5 @@
 
-import { ArrowRight, Calendar, Globe, Shield } from "lucide-react";
+import { ArrowRight, Calendar, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function LLCInfoSection() {
@@ -35,16 +35,6 @@ export function LLCInfoSection() {
                   <p className="text-muted-foreground">EIN: 33-1273206</p>
                   <p className="text-sm text-muted-foreground mt-1">NAICS code: 812331</p>
                   <p className="text-sm text-muted-foreground mt-1">SIC code: 70-89</p>
-                </div>
-              </div>
-              
-              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 animate-fade-in animation-delay-200 opacity-50">
-                <div className="p-3 rounded-xl bg-amber-50 text-amber-500">
-                  <Shield className="h-6 w-6" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold">Security Clearances</h3>
-                  <p className="text-muted-foreground">Coming Soon</p>
                 </div>
               </div>
             </div>
