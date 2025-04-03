@@ -1,3 +1,4 @@
+
 import { Layout } from "@/components/layout/layout";
 import { cn } from "@/lib/utils";
 
@@ -17,7 +18,7 @@ const teams = [
         role: "Co-Founder",
         bio: "University of Missouri student, born and raised in Saint Louis.",
         qualifications: "University of Missouri Business School. Clayton High School graduate.",
-        image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        image: "/placeholder.svg",
       },
       {
         name: "Jacob Warren",
@@ -31,14 +32,14 @@ const teams = [
         role: "Co-Founder",
         bio: "Twenty-One-year-old, eager to grow and maintain a top 1% business in America. Born and raised in Fishers IN, grew up as a multi-sport athlete who took pride in the idea of competing to be the best alongside your brothers.",
         qualifications: "Highschool Graduate. Recruiter for a Construction Staffing company, with a splash of entrepreneurship in my own website.",
-        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        image: "/placeholder.svg",
       },
       {
         name: "Clay Covert",
         role: "Co-Founder",
         bio: "Twenty-year-old, wanting to connect in and maintain a constantly improving organization meeting demands and needs around the country. I originate from St. Louis, Missouri and wrestled for over 11 years.",
         qualifications: "Lafayette Highschool Graduate. Previous experience - Togo Manager. Associate in Aczero LLC, an innovating tech company in GPU and AI science.",
-        image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        image: "/placeholder.svg",
       },
     ],
   },
