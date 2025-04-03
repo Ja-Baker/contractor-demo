@@ -7,7 +7,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-[90vh] md:min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with gradient overlay */}
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542621334-a254cf47733d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80')] bg-cover bg-center">
+      <div className="absolute inset-0 bg-[url('/lovable-uploads/32419a70-2ddd-44e1-baf7-22c704c14bb1.png')] bg-cover bg-center">
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/90 to-background/80"></div>
       </div>
       

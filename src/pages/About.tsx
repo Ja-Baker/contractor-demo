@@ -78,8 +78,8 @@ const About = () => {
             <div className="order-1 md:order-2 animate-slide-in-right">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80" 
-                  alt="Our company story" 
+                  src="/lovable-uploads/5029eb02-94f2-4354-a1ca-39a5dfeb7215.png" 
+                  alt="Our team planning session" 
                   className="rounded-2xl shadow-lg"
                 />
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full bg-primary/10 animate-pulse"></div>

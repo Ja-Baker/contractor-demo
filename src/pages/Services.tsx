@@ -18,7 +18,7 @@ const services = [
     icon: "🚚",
     color: "bg-blue-50 border-blue-200",
     iconColor: "text-blue-500",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
+    image: "/lovable-uploads/9af8b374-2b57-4195-ba19-da8a346e3caf.png",
   },
   {
     id: "laundry-linen",
@@ -35,7 +35,7 @@ const services = [
     icon: "🧺",
     color: "bg-teal-50 border-teal-200",
     iconColor: "text-teal-500",
-    image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
+    image: "/lovable-uploads/701ffff1-3df1-4e72-8a1a-4ad2372d7bca.png",
   },
   {
     id: "data",
@@ -52,7 +52,7 @@ const services = [
     icon: "📊",
     color: "bg-purple-50 border-purple-200",
     iconColor: "text-purple-500",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2000&q=80",
+    image: "/lovable-uploads/67358412-3744-48f0-bc28-bf2ff4ff502b.png",
   },
 ];
 

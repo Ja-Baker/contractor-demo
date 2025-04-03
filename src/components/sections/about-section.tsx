@@ -14,7 +14,7 @@ const teamMembers = [
     name: "Shabir Buttar-Miller",
     role: "Co-Founder",
     bio: "University of Missouri student, born and raised in Saint Louis.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
   },
   {
     name: "Jacob Warren",
@@ -51,15 +51,15 @@ export function AboutSection() {
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden aspect-[3/4] transform translate-y-8">
                   <img 
-                    src="https://images.unsplash.com/photo-1455849318743-b2233052fcff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                    alt="Government logistics operations" 
+                    src="/lovable-uploads/5029eb02-94f2-4354-a1ca-39a5dfeb7215.png" 
+                    alt="Team planning session" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                    alt="Team planning session" 
+                    src="/lovable-uploads/2a99ec23-ff54-4b4a-8bbb-8cf607d55aa8.png" 
+                    alt="Team collaboration" 
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -67,15 +67,15 @@ export function AboutSection() {
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden aspect-square">
                   <img 
-                    src="https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                    alt="Government facility" 
+                    src="/lovable-uploads/67358412-3744-48f0-bc28-bf2ff4ff502b.png" 
+                    alt="Team working together" 
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-2xl overflow-hidden aspect-[3/4] transform -translate-y-8">
                   <img 
-                    src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                    alt="Logistics management" 
+                    src="/lovable-uploads/ab2364bc-dc16-41a7-8e8d-b31a46e73f62.png" 
+                    alt="Team discussion" 
                     className="w-full h-full object-cover"
                   />
                 </div>
