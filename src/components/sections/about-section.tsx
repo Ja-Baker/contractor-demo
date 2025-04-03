@@ -8,7 +8,7 @@ const teamMembers = [
     name: "Payton Kashmier",
     role: "Co-Founder",
     bio: "University of Missouri student, born and raised near Chicago. Very motivated to create a successful business.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    image: "/lovable-uploads/ae630127-2abb-4f5f-93be-27710671367c.png",
   },
   {
     name: "Shabir Buttar-Miller",

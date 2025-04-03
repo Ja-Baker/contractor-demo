@@ -11,7 +11,7 @@ const teams = [
         role: "Co-Founder",
         bio: "University of Missouri student, born and raised near Chicago. Very motivated to create a successful business.",
         qualifications: "University of Missouri Engineering School. Problem Solver, Reliable, Personable, Helpful.",
-        image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+        image: "/lovable-uploads/ae630127-2abb-4f5f-93be-27710671367c.png",
       },
       {
         name: "Shabir Buttar-Miller",
