@@ -32,7 +32,7 @@ const teams = [
         role: "Co-Founder",
         bio: "Twenty-One-year-old, eager to grow and maintain a top 1% business in America. Born and raised in Fishers IN, grew up as a multi-sport athlete who took pride in the idea of competing to be the best alongside your brothers.",
         qualifications: "Highschool Graduate. Recruiter for a Construction Staffing company, with a splash of entrepreneurship in my own website.",
-        image: "/placeholder.svg",
+        image: "/lovable-uploads/aca7fdda-e838-467a-b67d-f74317a462d1.png",
       },
       {
         name: "Clay Covert",
