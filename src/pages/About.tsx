@@ -1,4 +1,3 @@
-
 import { Layout } from "@/components/layout/layout";
 import { cn } from "@/lib/utils";
 
@@ -12,6 +11,7 @@ const teams = [
         bio: "University of Missouri student, born and raised near Chicago. Very motivated to create a successful business.",
         qualifications: "University of Missouri Engineering School. Problem Solver, Reliable, Personable, Helpful.",
         image: "/lovable-uploads/ae630127-2abb-4f5f-93be-27710671367c.png",
+        zoomed: true,
       },
       {
         name: "Shabir Buttar-Miller",
@@ -26,6 +26,7 @@ const teams = [
         bio: "Twenty-One-year-old entrepreneur inspired to build and manage successful businesses. Originally born outside Washington D.C., and now lives in Columbia, Missouri.",
         qualifications: "Eureka High School graduate. Previous business ventures with networking and financial literacy.",
         image: "/lovable-uploads/1532e4f0-d34e-4924-8da1-2505007b8af8.png",
+        zoomed: true,
       },
       {
         name: "Andrew Shaw",
@@ -144,11 +145,14 @@ const About = () => {
                         `animate-scale-in animation-delay-${memberIndex * 100}`
                       )}
                     >
-                      <div className="aspect-[4/3]">
+                      <div className="aspect-[4/3] overflow-hidden">
                         <img 
                           src={member.image} 
                           alt={member.name} 
-                          className="w-full h-full object-cover"
+                          className={cn(
+                            "w-full h-full object-cover",
+                            member.zoomed && "scale-125 origin-center"
+                          )}
                         />
                       </div>
                       <div className="p-6">

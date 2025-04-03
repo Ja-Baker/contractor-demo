@@ -1,4 +1,3 @@
-
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
@@ -9,6 +8,7 @@ const teamMembers = [
     role: "Co-Founder",
     bio: "University of Missouri student, born and raised near Chicago. Very motivated to create a successful business.",
     image: "/lovable-uploads/ae630127-2abb-4f5f-93be-27710671367c.png",
+    zoomed: true,
   },
   {
     name: "Shabir Buttar-Miller",
@@ -21,6 +21,7 @@ const teamMembers = [
     role: "Co-Founder",
     bio: "Twenty-One-year-old entrepreneur inspired to build and manage successful businesses. Originally born outside Washington D.C.",
     image: "/lovable-uploads/1532e4f0-d34e-4924-8da1-2505007b8af8.png",
+    zoomed: true,
   },
 ];
 
@@ -97,11 +98,14 @@ export function AboutSection() {
                   `animate-scale-in animation-delay-${index * 100}`
                 )}
               >
-                <div className="aspect-[4/3]">
+                <div className="aspect-[4/3] overflow-hidden">
                   <img 
                     src={member.image} 
                     alt={member.name} 
-                    className="w-full h-full object-cover"
+                    className={cn(
+                      "w-full h-full object-cover",
+                      member.zoomed && "scale-125 origin-center"
+                    )}
                   />
                 </div>
                 <div className="p-6">
