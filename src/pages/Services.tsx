@@ -19,7 +19,7 @@ const services = [
     icon: <Truck className="h-6 w-6" />,
     color: "bg-blue-50 border-blue-200",
     iconColor: "text-blue-500",
-    image: "/lovable-uploads/32419a70-2ddd-44e1-baf7-22c704c14bb1.png",
+    image: "/lovable-uploads/35bacd0c-e9df-4e0c-a2a0-fdae85d41af4.png",
   },
   {
     id: "laundry-linen",
