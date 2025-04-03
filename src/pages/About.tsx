@@ -39,7 +39,7 @@ const teams = [
         role: "Co-Founder",
         bio: "Twenty-year-old, wanting to connect in and maintain a constantly improving organization meeting demands and needs around the country. I originate from St. Louis, Missouri and wrestled for over 11 years.",
         qualifications: "Lafayette Highschool Graduate. Previous experience - Togo Manager. Associate in Aczero LLC, an innovating tech company in GPU and AI science.",
-        image: "/placeholder.svg",
+        image: "/lovable-uploads/1338879e-42e1-411a-b3be-eb9d5ec905c6.png",
       },
     ],
   },
