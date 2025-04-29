@@ -73,7 +73,7 @@ const LLCInfo = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">NAICS Codes</h3>
                   <ul className="text-muted-foreground space-y-1">
-                    <li>541990 - All Other Professional, Scientific, and Technical Services</li>
+                    <li>812331 - Industrial Launderers</li>
                     <li>541614 - Process, Physical Distribution, and Logistics Consulting Services</li>
                     <li>518210 - Data Processing, Hosting, and Related Services</li>
                   </ul>
