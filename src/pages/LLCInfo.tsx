@@ -1,3 +1,4 @@
+
 import { Layout } from "@/components/layout/layout";
 import { cn } from "@/lib/utils";
 
@@ -74,8 +75,6 @@ const LLCInfo = () => {
                   <h3 className="text-xl font-semibold mb-2">NAICS Codes</h3>
                   <ul className="text-muted-foreground space-y-1">
                     <li>812331 - Industrial Launderers</li>
-                    <li>541614 - Process, Physical Distribution, and Logistics Consulting Services</li>
-                    <li>518210 - Data Processing, Hosting, and Related Services</li>
                   </ul>
                 </div>
               </div>
@@ -145,20 +144,10 @@ const LLCInfo = () => {
               </div>
               
               <div>
-                <h3 className="text-xl font-semibold mb-2">Primary Office Location</h3>
-                <p className="text-muted-foreground">
-                  <span className="block">123 Business Ave, Suite 100</span>
-                  <span className="block">New York, NY 10001</span>
-                  <span className="block">United States</span>
-                </p>
-              </div>
-              
-              <div>
                 <h3 className="text-xl font-semibold mb-2">Contact Information</h3>
                 <p className="text-muted-foreground">
-                  <span className="block">General Inquiries: info@yourllc.com</span>
-                  <span className="block">Customer Support: support@yourllc.com</span>
-                  <span className="block">Phone: (555) 123-4567</span>
+                  <span className="block">Email: partners@millicour.com</span>
+                  <span className="block">Phone: (636) 203-7140</span>
                 </p>
               </div>
             </div>
