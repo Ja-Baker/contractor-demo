@@ -1,4 +1,3 @@
-
 import { Layout } from "@/components/layout/layout";
 import { cn } from "@/lib/utils";
 
@@ -24,7 +23,7 @@ const LLCInfo = () => {
               <div className="bg-white rounded-2xl shadow-sm border p-8 space-y-6">
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Official Name</h3>
-                  <p className="text-muted-foreground">Your LLC</p>
+                  <p className="text-muted-foreground">Millicour, LLC</p>
                 </div>
                 
                 <div>
@@ -34,17 +33,17 @@ const LLCInfo = () => {
                 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Founding Date</h3>
-                  <p className="text-muted-foreground">January 15, 2018</p>
+                  <p className="text-muted-foreground">September 30th, 2024</p>
                 </div>
                 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">State of Registration</h3>
-                  <p className="text-muted-foreground">Delaware</p>
+                  <p className="text-muted-foreground">Missouri</p>
                 </div>
                 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">Tax Identification Number</h3>
-                  <p className="text-muted-foreground">XX-XXXXXXX (EIN)</p>
+                  <p className="text-muted-foreground">33-1273206 (EIN)</p>
                 </div>
               </div>
             </div>
